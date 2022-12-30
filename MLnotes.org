@@ -13,3 +13,19 @@ docker run -p 8080:8080 -p 8081:8081 --pull always -u $(id -u):$(id -g) -v $(pwd
 #+end_src
 
 Which is better to run in a shell since I want to be able to see the token for getting into the live book, plus I want to be able to kill the process when I am done with it.
+
+* Never mind just use the desktop app
+I tried getting it to run in Docker, but getting things to compile in the standard docker container was a pain. Too much to fiddle with. Downloading and running the desktop app was much easier.
+
+
+* It's all up and working now
+
+** trying out GPT2 (large)
+The newer Livebook versions come with a smartcells for Neural network tasks. So getting a GPT2 model running is as easy as clicking some fields and waiting for it download a pre-trained model for me.
+
+Once I get a feel for how to use this, I think I want to try downloading some other pre-trained models that aren't just drop downs and see what the flow is like for those.
+
+Nice. The medium size seems to work okay.
+
+The output isn't very good, but it's not bad considering how bad it cold be.
+
