@@ -3,3 +3,13 @@ Started [2022-12-30 Fri]
 
 * Beams languages for ML
 This Org file will be where I keep track of my notes on learning how to use Beam languages for ML.
+
+* Getting a Livebook running on Docker
+I think I just run this:
+
+#+name:name
+#+begin_src bash :results output
+docker run -p 8080:8080 -p 8081:8081 --pull always -u $(id -u):$(id -g) -v $(pwd):/data livebook/livebook
+#+end_src
+
+Which is better to run in a shell since I want to be able to see the token for getting into the live book, plus I want to be able to kill the process when I am done with it.

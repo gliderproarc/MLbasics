@@ -1,0 +1,7 @@
+# First ML Livebook
+
+## Intro
+
+```elixir
+IO.puts("Let's get this party started")
+```
