@@ -1,0 +1,5 @@
+#+title: MLnotes
+Started [2022-12-30 Fri]
+
+* Beams languages for ML
+This Org file will be where I keep track of my notes on learning how to use Beam languages for ML.
